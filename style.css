@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: calc(100vh - 66px);
+    margin-top: 66px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.meet{
+    text-decoration: none;
+    float: center;
+    background-color: black;
+    color: white;
+    /* margin-top: 8px; */
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    transition: ease-in-out 270ms;
+}
+.meet:hover{
+    float: center;
+    background-color: rgb(41, 37, 37);
+    text-decoration: none;
+    /* margin-top: 10px; */
+    padding-top: 8px;
+    padding-right: 13px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    border-radius: 10%;
+}
+a, li{
+    display: inline-block;
+}
+#profile>div{
+    height: 450px;
+    width:425px;
+}
+a>img {
+    height: 50px;
+    width: 50px;
+    border-color: black;
+    border-radius: 50%;
+    margin: 7px;
+}
+#name{
+    margin-top: 20px;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+}
+.active{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 66px;
+    float: left;
+    /* background-color:rgba(0, 0, 0, 0.3) ; */
+    border-bottom: solid black;
+    position: fixed;
+}
+li .phone,li .email{
+    float: left;
+}
+.phone>a>img{
+    width: 50px;
+    height: 45px;
+    transition: ease-in-out 250ms;
+    border-radius: 17%;
+    margin: 10px;
+    margin-right: 18px;
+    float: left;
+    /* margin-right: 50px; */
+    text-align: center;
+}
+.us{
+    margin-top: 22px;
+    float: right;
+}
+.all{
+    margin-top: 22px;
+    float: right;
+}
+.phone>a>img:hover{
+    width: 60px;
+    height: 55px;
+    transition: ease-in-out 250ms;
+    border-radius: 17%;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.email>a>img{
+    width: 50px;
+    height: 45px;
+    transition: ease-in-out 250ms;
+    border-radius: 17%;
+    margin: 10px;
+    margin-left: 12px;
+    float: left;
+    /* margin-right: 50px; */
+    text-align: center;
+}
+.email>a>img:hover{
+    width: 60px;
+    height: 55px;
+    transition: ease-in-out 250ms;
+    border-radius: 17%;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.email>li{
+    text-align: center;
+}
+nav{
+    float: right;
+}
+.navigation {
+    margin-left: 40%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+nav ul li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 18%;
+    transition: ease-in-out 270ms;
+}
+nav ul li a:hover{
+    background-color: rgb(75, 68, 68);
+    color: white;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 22px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    border-radius: 18%;
+}
+.box2 h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 350;
+}
+.box2 h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.box2 p{
+    text-align: justify;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.box2>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.box2{
+    float: center;
+    display: inline-block;
+    width: 450px;
+    border-color: black;
+    background: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-left: 3%;
+    color: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+}
+.box1{
+    float: left;
+    display: inline-block;
+    width: 275px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+}
+.box1 h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Century Gothic' ,sans-serif;
+}
+.box3{
+    float: right;
+    display: inline-block;
+    width: 275px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+}
+.box3 h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Century Gothic' ,sans-serif;
+}
+.box4{
+    float: left;
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-left: 10%;
+    margin-bottom: 7%;
+    color: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+}
+.box4 img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+.box4 h1{
+    font-size: 34px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Century Gothic' ,sans-serif;
+}
+.box5{
+    float: right;
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    text: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+}
+.box5 img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+.box5 h1{
+    font-size: 34px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Century Gothic' ,sans-serif;
+}
+.box6{
+    float: center;
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-left: 27%;
+    margin-bottom: 7%;
+    text: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background: black;
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25), inset -2px -2px -2px
+    rgba(0,0,0,0.25);
+}
+.box7{
+    float: center;
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-left: 27%;
+    margin-bottom: 7%;
+    text: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+    overflow-y: auto;
+}
+.box7>h1{
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+.box7>h2{
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.box7>h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.box8{
+    float: center;
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-left: 27%;
+    margin-bottom: 7%;
+    text: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+}
+.box8>h1{
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+.box8>h2{
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.box9{
+    float: center;
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-left: 27%;
+    margin-bottom: 7%;
+    text: black;
+    font-family: 'Century Gothic' ,sans-serif;
+    border-radius: 10%;
+}
+.box9>h1{
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+.footer{
+    margin-top: 110px;
+    font-size: 50px;
+}
